@@ -22,7 +22,7 @@ end
 # Use ternary operator to return "even" or "odd"
 # Expected: even_or_odd(4) => "even"
 def even_or_odd(num)
-  num % 2 == 0 ? "even" : "odd";
+  num % 2 == 0 ? "even" : "odd"
 end
 
 # Exercise 3: Unless statement (Ruby-specific)
@@ -109,7 +109,8 @@ end
 # Expected: check_size(150) => "big"
 # Expected: check_size(50) => 50
 def check_size(num)
-  return "big" if num > 100; return num
+  return "big" if num > 100
+  num
 end
 
 # ============================================

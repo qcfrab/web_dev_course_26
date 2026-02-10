@@ -39,7 +39,7 @@ end
 # Return a new hash with only pairs where value is greater than threshold
 # Expected: filter_by_value({ a: 10, b: 5, c: 15 }, 8) => { a: 10, c: 15 }
 def filter_by_value(hash, threshold)
-  hash.select{|key, value| value > threshold}
+  hash.select{|_, value| value > threshold}
 end
 
 # Exercise 6: Hash merging
